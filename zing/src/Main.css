@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    overflow: hidden;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    width: 70%;
+    overflow: visible;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1.5px solid rgb(230, 230, 230);
+}
+
+.zing {
+    font-size: 45px;
+}
+
+.navbar {
+    margin-top: 15px;
+    padding-left: 50vw;
+    display: flex;
+    font-size: 23px;
+} 
+
+.navbar > * {
+    margin-right: 15px;
+}
+
+.get-started {
+    border: transparent;
+    padding: 9px 12px 9px 12px;
+    border-radius: 7px;
+    background-color: rgb(36, 131, 255);
+    color: white;
+    margin-top: -7px;
+    transition: 0.4s;
+}
+
+.get-started:hover {
+    cursor: pointer;
+    color: rgb(207, 207, 207);
+}
+
+.Main-text {
+    text-align: center;
+    padding-top: 95px;
+    display: block;
+}
+
+.annualising {
+    font-size: 3.8em;
+    font-weight: 800;
+}
+
+.description {
+    font-size: 1.5em;
+    color: grey;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.calculator {
+    padding-top: 70px;
+    font-weight: 800;
+}
+
+.text-above-calc {
+    font-size: 2.3em;
+}
+
+form {
+    width: 40%;
+    min-width: 350px;
+    margin: 0 auto;
+    border: 0px solid grey;
+    background-color: rgb(36, 131, 255);
+    color: white;
+    border-radius: 6px;
+    display: block;
+    text-align: left;
+    font-size: 1.3em;
+    padding: 25px 3em 2em 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-input-input {
+    flex: 1;
+}
+
+
+
+input[type='text'] {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    height:24px; 
+    width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    bottom: 0pt;
+    left: 0pt;
+}
